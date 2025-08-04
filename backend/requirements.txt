@@ -1,0 +1,11 @@
+fastapi==0.109.0
+sqlalchemy
+openai
+transformers
+torch
+langchain-core
+
+# Testing dependencies
+pytest==7.4.4
+pytest-asyncio==0.23.2
+faker==21.0.0
