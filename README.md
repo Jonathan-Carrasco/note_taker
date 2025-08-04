@@ -91,7 +91,7 @@ The application features two main user flows:
 
 ### Backend Architecture
 
-The backend follows a service-oriented architecture with dedicated services for each entity, a repository pattern for data access, and integration with OpenAI's GPT-4o model for generating structured ABA session notes following professional templates.
+The backend follows a service-oriented architecture with dedicated services for each entity, a repository pattern for data access, and integration with OpenAI's GPT-4o model for generating structured ABA session notes following professional templates. Trade offs I made were allowing any BCBA to view all patient data. Ideally, we would only allow BCBAs to view patients that attend their clinic. In the interest of time I also didn't display all BCBAs as a dropdown. Ideally, this site uses authentication to identify which BCBA to display notes for. I created a template that I believed would act as a useful format through which to display notes. Metadata autopopulate this format, as well as relevant details form the session notes.
 
 ## Time Expectation
 
